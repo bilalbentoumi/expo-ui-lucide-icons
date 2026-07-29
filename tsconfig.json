@@ -12,6 +12,6 @@
     "rootDir": ".",
     "resolveJsonModule": true
   },
-  "include": ["index.ts", "declarations.d.ts"],
+  "include": ["src/index.ts", "src/declarations.d.ts"],
   "exclude": ["node_modules", "dist"]
 }
