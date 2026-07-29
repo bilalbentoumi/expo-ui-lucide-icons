@@ -1,16 +1,13 @@
 <p align="center">
   <a href="https://github.com/lucide-icons/lucide#gh-light-mode-only">
-    <img src="https://lucide.dev/lucide-logo-repo.svg#gh-light-mode-only" alt="Lucide - Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons." width="480">
-  </a>
-  <a href="https://github.com/lucide-icons/lucide#gh-dark-mode-only">
-    <img src="https://lucide.dev/lucide-logo-repo-dark.svg#gh-dark-mode-only" alt="Lucide - Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons." width="480">
+    <img src="assets/image.png" alt="Lucide - Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons." width="480">
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/bilalbentoumi/expo-ui-lucide-icons/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-ISC-green" alt="license"></a>
-  <a href="https://www.npmjs.com/package/@bilalbentoumi/expo-ui-lucide-icons"><img src="https://img.shields.io/npm/v/@bilalbentoumi/expo-ui-lucide-icons" alt="npm version"></a>
-  <img src="https://img.shields.io/npm/dw/@bilalbentoumi/lucide-icons" alt="npm downloads">
+  <a href="https://www.npmjs.com/package/expo-ui-lucide-icons"><img src="https://img.shields.io/npm/v/expo-ui-lucide-icons" alt="npm version"></a>
+  <img src="https://img.shields.io/npm/dw/expo-ui-lucide-icons" alt="npm downloads">
 </p>
 
 <p align="center">
@@ -23,7 +20,7 @@
   <a href="https://lucide.dev/license">License</a>
 </p>
 
-# @bilalbentoumi/expo-ui-lucide-icons
+# expo-ui-lucide-icons
 
 **Lucide icons as Android Vector Drawables for Expo / React Native**
 
@@ -34,9 +31,9 @@ This package ships raw `.xml` vector drawables bundled as TypeScript/JavaScript 
 ## Installation
 
 ```bash
-npm install @bilalbentoumi/expo-ui-lucide-icons
+npm install expo-ui-lucide-icons
 # or
-yarn add @bilalbentoumi/expo-ui-lucide-icons
+yarn add expo-ui-lucide-icons
 ```
 
 ## Usage
@@ -44,11 +41,7 @@ yarn add @bilalbentoumi/expo-ui-lucide-icons
 Each icon is a named export pointing to an Android Vector Drawable XML string.
 
 ```ts
-import {
-  CameraIcon,
-  HeartIcon,
-  StarIcon,
-} from "@bilalbentoumi/expo-ui-lucide-icons";
+import { CameraIcon, HeartIcon, StarIcon } from "expo-ui-lucide-icons";
 
 console.log(CameraIcon); // XML string of the camera vector drawable
 ```
@@ -59,7 +52,7 @@ Use the `Icon` component from `@expo/ui` to render icons natively:
 
 ```tsx
 import { Host, Icon } from "@expo/ui";
-import { CameraIcon } from "@bilalbentoumi/expo-ui-lucide-icons";
+import { CameraIcon } from "expo-ui-lucide-icons";
 
 export default function App() {
   return (
