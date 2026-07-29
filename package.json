@@ -1,0 +1,31 @@
+{
+  "name": "expo-ui-lucide-icons",
+  "version": "1.0.0",
+  "description": "Lucide icons as Android Vector Drawables for Expo UI",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/",
+    "icons/"
+  ],
+  "scripts": {
+    "build": "tsc && cp -r icons dist/",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bilalbentoumi/expo-ui-lucide-icons.git"
+  },
+  "keywords": ["expo", "react-native", "lucide", "icons", "android", "vector-drawable", "svg"],
+  "author": "Bilal Bentoumi",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/bilalbentoumi/expo-ui-lucide-icons/issues"
+  },
+  "homepage": "https://github.com/bilalbentoumi/expo-ui-lucide-icons#readme",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
