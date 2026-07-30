@@ -1,6 +1,6 @@
 {
   "name": "expo-ui-lucide-icons",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Lucide icons as Android Vector Drawables for Expo UI",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
