@@ -9,7 +9,7 @@
     "icons/"
   ],
   "scripts": {
-    "build": "tsc && cp -r icons dist/",
+    "build": "tsc && cp -r src/icons dist/",
     "prepublishOnly": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
